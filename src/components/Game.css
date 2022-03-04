@@ -1,8 +1,13 @@
+.container {
+  width: 100%;
+  background-color: #dadbbd;
+  height: 600px;
+}
 .gameArea {
   position: relative;
   margin: 50px auto;
-  width: 600px;
-  height: 450px;
+  width: 45%;
+  height: 55%;
   border: 2px solid black;
 }
 .snake-dot {
@@ -17,11 +22,38 @@
   position: absolute;
   width: 2%;
   height: 2%;
-  background-color: red;
+  background-color: r
   border: 1px solid #fff;
   z-index: 1;
 }
 .audio {
+  /* margin-top:1%;  */
   width: 50%;
   margin-left: 20%;
+}
+.score {
+  margin-top: 0%;
+  text-align: right;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  width: 70%;
+  margin-left: 20%;
+}
+.navbar {
+  background-color: #151d3b;
+  color: white;
+  width: 100vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2%;
+}
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1%;
+  color: white;
+  margin-right: 3%;
 }

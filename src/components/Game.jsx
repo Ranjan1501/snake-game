@@ -4,6 +4,7 @@ import "./Game.css";
 import Snake from "./Snake";
 import ReactAudioPlayer from "react-audio-player";
 import intro from "../Sound/intro.mp3";
+// import gameOver from "../Sound/game-over.wav";
 
 const randomCoordinates = () => {
   let min = 1;
@@ -86,7 +87,7 @@ export class Game extends Component {
   increaseSpeed() {
     if (this.state.speed > 10) {
       this.setState({
-        speed: this.state.speed - 10,
+        speed: this.state.speed - 20,
       });
     }
   }
@@ -94,8 +95,6 @@ export class Game extends Component {
   gameOver = () => {
     alert("Game Over");
     this.setState(initialState);
-    // let res = this.state.snakeDots.length;
-    // return res;
   };
 
   onKeyDown = (e) => {
@@ -147,14 +146,21 @@ export class Game extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="container">
+        <br />
         <div className="audio">
-          <ReactAudioPlayer className="audio" src={intro} autoPlay controls />
+          <ReactAudioPlayer
+            className="audio"
+            src={intro}
+            autoPlay={true}
+            controls={true}
+          />
         </div>
+        <div className="score">Score: {this.state.snakeDots.length}</div>
         <div className="gameArea">
           <Snake snakeDots={this.state.snakeDots} />
           <Food dot={this.state.food} />
-          <div>Score: {this.state.snakeDots.length}</div>
+          {/* <div>Score: {this.state.snakeDots.length}</div> */}
         </div>
       </div>
     );
