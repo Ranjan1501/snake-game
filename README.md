@@ -1,9 +1,8 @@
-# Getting Started with Create React App
+# Snake Fun Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
+## How to Run this Project
+1. clone the project with this command - https://github.com/Ranjan1501/snake-game.git
+2. Install all the Dependecies with npm install 
 In the project directory, you can run:
 
 ### `npm start`
@@ -13,6 +12,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+PS. Work in Progess...
 
 ### `npm test`
 
