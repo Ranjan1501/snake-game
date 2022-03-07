@@ -12,8 +12,8 @@ function NavBar() {
       <Link to="/login" className="link">
         Login
       </Link>
-      <Link to="/contactus" className="link">
-        ContactUs{" "}
+      <Link to="/about" className="link">
+        About{" "}
       </Link>
     </div>
   );
