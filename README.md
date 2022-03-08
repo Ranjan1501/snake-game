@@ -10,7 +10,7 @@ Snake is a video game genre where the player maneuvers a growing line that becom
 4. Ant Design 
 5. Dynamic Routing
 6. HMTL
-7 React Audio Player 
+7. React Audio Player 
 
 [Project Demo] (https://drive.google.com/file/d/1FW9uNVY50aCN4hTuSz0KVB5AWA4m-uui/view?usp=sharing)
 
