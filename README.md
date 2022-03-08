@@ -1,4 +1,20 @@
-# Snake Fun Game
+#  <span style="color: red">   Snake Fun Game </span>
+Snake is a video game genre where the player maneuvers a growing line that becomes a primary obstacle to itself. The concept originated in the 1976 two-player arcade game Blockade from Gremlin Industries, and the ease of implementation has led to hundreds of versions (some of which have the word snake or worm in the title) for many platforms. 1982's Tron arcade game, based on the film, includes snake gameplay for the single-player Light Cycles segment. After a variant was preloaded on Nokia mobile phones in 1998.
+
+<br> 
+
+# <span style="color: red" > Tech Stack </span> 
+1. ReactJs
+2. JavaScript
+3. CSS
+4. Ant Design 
+5. Dynamic Routing
+6. HMTL
+7. React Audio Player 
+
+[Project Demo] (https://drive.google.com/file/d/1FW9uNVY50aCN4hTuSz0KVB5AWA4m-uui/view?usp=sharing)
+
+
 
 ## How to Run this Project
 1. clone the project with this command - https://github.com/Ranjan1501/snake-game.git
@@ -57,15 +73,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Making a Progressive Web App
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
